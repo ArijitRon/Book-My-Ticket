@@ -1,0 +1,13 @@
+<div id='orderSummary'>
+    <div class="content">
+        <button type="button" class="close" ui-sref="seatsPage">&times;</button>
+        <h2>BookMyTicket</h2>
+        <h4>{{movieObj.hall}}</h4>
+        <h4>{{movieObj.movie}}</h4>
+        <p ng-repeat="ticket in ticketObjs">SeatNo:<b>{{ticket.seatno}}</b> Price: <b>{{ticket.cost|currency:'&#8360'}}</b></p>
+        <p>Show Time: <b>{{movieObj.time}}</b></p>
+        <!--<article><span>Amount Payable:</span><span><b>{{ticketObj.totPrice|currency}}</b></span></article>-->
+        <span><a class="btn btn-danger" ui-sref="seatsPage">Cancel</a></span>
+        <span><a class="btn btn-primary" ui-sref="payment">Proceed</a></span>
+    </div>
+</div>

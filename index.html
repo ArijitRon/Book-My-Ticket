@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style/layout.css" />
+
+<body ng-app="bookmyticket">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BookMyTicket</a>
+            </div>
+        </div>
+    </nav>
+    <div ui-view>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+    <script src="scripts/getdata.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controller/hallController.js"></script>
+    <script src="scripts/controller/seatController.js"></script>
+    <script src="scripts/controller/ticketController.js"></script>
+    <script src="scripts/controller/payController.js"></script>
+    <script src="scripts/services/currentSeats.js"></script>
+    <script src="scripts/services/currentShow.js"></script>
+    <script src="scripts/services/dbManager_service.js"></script>
+    <script src="scripts/services/priceService.js"></script>
+    <script src="scripts/services/rowCalc.js"></script>
+    <script src="scripts/services/seatArrange.js"></script>
+    <script src="scripts/services/ticketService.js"></script>
+</body>
+
+</html>

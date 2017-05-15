@@ -1,0 +1,5 @@
+projectKey=bookmyticket:bookmyticket
+serverUrl=http://192.168.2.27:9000
+dashboardUrl=http://192.168.2.27:9000/dashboard/index/bookmyticket:bookmyticket
+ceTaskId=AVwK8H-0prx4Gm0ZyNlX
+ceTaskUrl=http://192.168.2.27:9000/api/ce/task?id=AVwK8H-0prx4Gm0ZyNlX

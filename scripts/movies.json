@@ -1,0 +1,204 @@
+[
+    {
+        "theaterName": "PVR",
+        "theaterIcon": "data:image/jpeg;base64,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",
+        "seats":{
+                "excutive": "70",
+                "club": "80"
+            },
+        "cost":{
+                "excutive": "150",
+                "club": "100"
+            },
+        "movies": [
+            {
+                "movieName": "Bahubali 2,The Conclusion",
+                "movieIcon": "https://askopinion.com/images/Files/UserFiles/posting/lrg/2017/2/mighty-prabhas-in-this-new-bahubali--hzb.jpg",
+                "showTime": [
+                    {
+                        "time": "9:00AM",
+                        "hike": "-5"
+                    },
+                    {
+                        "time": "6:00PM",
+                        "hike": "10"
+                    }
+                ]
+            },
+            {
+                "movieName": "F8:The Fate Of The Furious",
+                "movieIcon":"https://pbs.twimg.com/media/C9LqLMQUMAQ-wn8.jpg:large",
+                "showTime": [
+                    {
+                        "time": "12:00PM",
+                        "hike": "0"
+                    }
+                ]
+            },
+            {
+                "movieName": "Begum Jaan",
+                "movieIcon":"http://timesofindia.indiatimes.com/thumb/msid-57556079,width-400,resizemode-4/57556079.jpg",
+                "showTime": [
+                    {
+                        "time": "3:00PM",
+                        "hike": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "theaterName": "INOX",
+        "theaterIcon": "data:image/jpeg;base64,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",
+        "seats":{
+                "excutive": "50",
+                "club": "90"
+            },
+        "cost":{
+                "excutive": "130",
+                "club": "80"
+            },
+        "movies": [
+            {
+                "movieName": "Bahubali 2,The Conclusion",
+                 "movieIcon": "https://askopinion.com/images/Files/UserFiles/posting/lrg/2017/2/mighty-prabhas-in-this-new-bahubali--hzb.jpg",
+                "showTime": [
+                    {
+                        "time": "6:00PM",
+                        "hike": "10"
+                    }
+                ]
+            },
+            {
+                "movieName": "F8:The Fate Of The Furious",
+                "movieIcon":"https://pbs.twimg.com/media/C9LqLMQUMAQ-wn8.jpg:large",
+                "showTime": [
+                    {
+                        "time": "9:00AM",
+                        "hike": "-5"
+                    },
+                    {
+                        "time": "12:00PM",
+                        "hike": "0"
+                    }
+                ]
+            },
+            {
+                "movieName": "Begum Jaan",
+                 "movieIcon":"http://timesofindia.indiatimes.com/thumb/msid-57556079,width-400,resizemode-4/57556079.jpg",
+                "showTime": [
+                    {
+                        "time": "3:00PM",
+                        "hike": "0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "theaterName": "CINEMAX",
+        "theaterIcon": "https://images.bwwstatic.com/columnpic7/2C60B7EC4-BCC9-1DBA-001A8E85721E5940.jpg",
+        "seats": {
+                "excutive": "70",
+                "club": "80"
+            },
+        "cost":
+            {
+                "excutive": "150",
+                "club": "100"
+            },
+        "movies": [
+            {
+                "movieName": "Bahubali 2,The Conclusion",
+                 "movieIcon": "https://askopinion.com/images/Files/UserFiles/posting/lrg/2017/2/mighty-prabhas-in-this-new-bahubali--hzb.jpg",
+                "showTime": [
+                    {
+                        "time": "9:00AM",
+                        "hike": "5"
+                    }
+                    
+                ]
+            },
+            {
+                "movieName": "F8:The Fate Of The Furious",
+                "movieIcon":"https://pbs.twimg.com/media/C9LqLMQUMAQ-wn8.jpg:large",
+                "showTime": [
+                    {
+                        "time": "12:00PM",
+                        "hike": "2"
+                    }
+                ]
+            },
+            {
+                "movieName": "Begum Jaan",
+                 "movieIcon":"http://timesofindia.indiatimes.com/thumb/msid-57556079,width-400,resizemode-4/57556079.jpg",
+                "showTime": [
+                    {
+                        "time": "6:00PM",
+                        "hike": "5"
+                    }
+                ]
+            },
+             {
+                "movieName": "Bisorjon",
+                 "movieIcon":"https://i1.wp.com/moviesweed.com/wp-content/uploads/2017/04/Bisorjon-2017-Bengali-Movie-Poster.jpg?w=620&ssl=1",
+                "showTime": [
+                    {
+                        "time": "3:00PM",
+                        "hike": "0"
+                    }
+                ]
+            }
+        ]
+    },
+     {
+        "theaterName": "ARTI",
+        "theaterIcon": "https://dhoom.filmipop.com/media//theatrelogo/2015/Aug/1438930342-articinelog1.jpg",
+        "seats": {
+                "excutive": "70",
+                "club": "80"
+            },
+        "cost":
+            {
+                "excutive": "150",
+                "club": "100"
+            },
+        "movies": [
+            {
+                "movieName": "Bahubali 2,The Conclusion",
+                 "movieIcon": "https://askopinion.com/images/Files/UserFiles/posting/lrg/2017/2/mighty-prabhas-in-this-new-bahubali--hzb.jpg",
+                "showTime": [
+                    {
+                        "time": "9:00AM",
+                        "hike": "5"
+                    }
+                    
+                ]
+            },
+            {
+                "movieName": "F8:The Fate Of The Furious",
+                "movieIcon":"https://pbs.twimg.com/media/C9LqLMQUMAQ-wn8.jpg:large",
+                "showTime": [
+                    {
+                        "time": "12:00PM",
+                        "hike": "2"
+                    }
+                ]
+            },
+             {
+                "movieName": "Bisorjon",
+                 "movieIcon":"https://i1.wp.com/moviesweed.com/wp-content/uploads/2017/04/Bisorjon-2017-Bengali-Movie-Poster.jpg?w=620&ssl=1",
+                "showTime": [
+                    {
+                        "time": "3:00PM",
+                        "hike": "0"
+                    },
+                     {
+                        "time": "6:00PM",
+                        "hike": "5"
+                    }
+                ]
+            }
+        ]
+    }
+]

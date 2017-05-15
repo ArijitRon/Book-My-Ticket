@@ -1,0 +1,39 @@
+<div class="container-fluid">
+  <h2>
+    <span>Hall:{{hall}} </span><br>
+    <span>Movie:{{movie}}</span><br>
+    <span>Showtime:{{showTime}}</span>
+  </h2>
+  <div class="col-md-1">
+    <!--<select ng-model="selectedVal" ng-options="i for i in quantities"></select>-->
+    <select class="form-control width" ng-model="selectedVal" ng-options="i for i in quantities" ng-change="changeQty()" style="text-align: center">
+      <option value="">Seats</option>
+    </select>
+            <!--<option ng-repeat="i in quantities">{{i}}</option>-->
+   
+    <p>Can Select: {{selectedVal}}</p>
+    <p>Housefull : {{isDisabled}}</p>
+    <p>Seats selected: {{selectedSeatCount}}</p>
+    <span class="btn btn-success" ng-hide="!proceed" ng-click="ticketCreation()"  ui-sref="seatsPage.ticket">Confirm</span>
+  </div>
+
+  <div class="col-md-11">
+    <div class="table-responsive">
+      <h4 style="background: lightcoral; border: 1px dashed; text-align: center">Screen</h4>
+      <table class="table">
+        <tbody class="table">
+          <tr ng-repeat="row in rows">
+            <td style="background: lightblue">{{rowLetter[$index]}}</td>
+            <td ng-repeat="item in row">
+              <span class="seats" ng-disabled="isDisabled" ng-class="{' selected ': item.check == true,'available
+    ': item.check == false, 'blocked ': item.booked == true}" ng-click="clickSeat(item)">{{item.val}}{{item.type}}</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div ui-view="seatsPage.ticket"></div>
+
+    </div>
+  </div>
+  
+</div>

@@ -1,0 +1,15 @@
+<div>
+    <div class="hall" ng-repeat="theater in totalData">
+        <img ng-src="{{theater.theaterIcon}}" alt="{{theater.theaterName}}" />
+        <div class="theater-content">
+            <div class="movies" ng-repeat="movie in theater.movies">
+                <img class="movie-icon" ng-src={{movie.movieIcon}} alt={{movie.movieName}}>
+                <div class="btn-group-vertical"><span style="background:transparent; color:white">Click here to book</span>
+                    <a class="btn btn-primary"
+                        ng-repeat="shows in movie.showTime" ng-click=currentShow(theater.theaterName,movie.movieName,shows,theater.seats,theater.cost) ui-sref="seatsPage">{{shows.time}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
